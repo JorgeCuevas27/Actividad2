@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil del Alumno B</title>
+</head>
+<body>
+    <h1>¡Hola! Soy el Alumno B</h1>
+    <h2>Explorando el mundo de la programación</h2>
+    
+    <p style="font-size: 60px;">🧑‍🎓</p>
+
+    <p>Gracias por visitar mi perfil. Por favor, completa el siguiente formulario para compartir un poco sobre ti.</p>
+
+    <form action="pagina1.html" method="get">
+        <label for="nombre">Tu nombre completo:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo"><br><br>
+
+        <label for="ciudad">Ciudad donde vives:</label><br>
+        <input type="text" id="ciudad" name="ciudad"><br><br>
+
+        <p>¿Conocías HTML antes de este curso?</p>
+        <input type="radio" id="html_si" name="html" value="sí">
+        <label for="html_si">Sí</label><br>
+        <input type="radio" id="html_no" name="html" value="no">
+        <label for="html_no">No</label><br><br>
+
+        <p>¿Qué áreas te interesan más?</p>
+        <input type="checkbox" id="diseno" name="areas" value="Diseño Web">
+        <label for="diseno">Diseño Web</label><br>
+        <input type="checkbox" id="frontend" name="areas" value="Front-End">
+        <label for="frontend">Front-End</label><br>
+        <input type="checkbox" id="backend" name="areas" value="Back-End">
+        <label for="backend">Back-End</label><br><br>
+
+        <label for="comentario">Cuéntame algo sobre ti:</label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br><br>
+
+        <label for="frecuencia">¿Con qué frecuencia practicas lo aprendido?</label><br>
+        <select id="frecuencia" name="frecuencia">
+            <option value="diario">Todos los días</option>
+            <option value="semanal">Una vez por semana</option>
+            <option value="ocasional">Solo cuando puedo</option>
+        </select><br><br>
+
+        <!-- Botón que envía el formulario y redirige a "pagina1.html" -->
+        <button type="submit">Enviar y ver perfil del Alumno A</button>
+    </form>
+
+    <p>Alumno B - 2025</p>
+</body>
+</html>
